@@ -90,7 +90,9 @@ unzip $HOME/Downloads/android-ndk-r20-linux-x86_64.zip -d $HOME/android-tools
 
 ### 3.2. Configure Android SDK
 Before Android SDK can be used, you need to accept the licenses and configure it:
-(you might need --sdk_root=$HOME/android-tools/android-sdk-linux on newer android-sdk-tools)
+
+**NOTE:** you might need --sdk_root=$HOME/android-tools/android-sdk-linux on newer android-sdk-tools
+
 ```
 cd $HOME/android-tools/android-sdk-linux/tools/bin
 ./sdkmanager --licenses
